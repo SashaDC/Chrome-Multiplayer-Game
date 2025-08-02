@@ -4,9 +4,12 @@ interface Props {
 
 export default function Game({ displayName }: Props) {
   return (
-    <div>
+    <div className="Game-Container">
       <h1>Game</h1>
-      <p>{displayName}</p>
+      <div className="Player">
+        <div className="Avatar"></div>
+        <div className="Display-Name">{displayName}</div>
+      </div>
     </div>
   )
 }
