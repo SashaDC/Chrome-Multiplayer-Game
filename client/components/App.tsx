@@ -8,8 +8,5 @@ export default function App() {
   if (username == null) {
     return <Login value={setUsername} />
   }
-  {
-    console.log(username)
-  }
   return <Game displayName={username} />
 }
