@@ -17,7 +17,7 @@ export default function Login({ value }: Props) {
 
   return (
     <div className="Login-Container">
-      <h1>Login</h1>
+      <h1 id="title">Login</h1>
       <h2>Enter a username:</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" value={userInput} onChange={handleChange} />
