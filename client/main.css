@@ -37,6 +37,7 @@ body {
 /* Game CSS Below */
 .Game-Container {
   background-color: rgb(194, 194, 194);
+  background-image: url(../Tiling-Grass-Texture-Main.jpg);
   border: black solid 5px;
   margin: 5rem auto;
   width: 90%;
@@ -49,15 +50,22 @@ body {
   /* Container holding the Display Name and Avatar */
   color: black;
   text-align: center;
-  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  transition: left 3s linear, top 3s linear; /* User movement */
 }
 
 .Avatar {
-  background-color: blueviolet;
   width: 70px;
   height: 70px;
   margin: inherit; /* To keep inline with the Display Name */
   box-shadow: 0px 38px 40px 2px rgba(0, 0, 0, 0.56); /* Horizontal length , Vertical length, Blur radius, Spread radius */
-  border: black solid 1px;
+  /* border: black solid 1px; */
 }
 /*-------------------------------------------------*/
+
+.penguin {
+  height: 70px;
+}
