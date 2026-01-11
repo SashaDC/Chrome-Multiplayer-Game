@@ -1,6 +1,6 @@
-# Chrome-based Game??
+# Chrome-based Game (WIP)
 
-A WIP multiplayer game built with React, TypeScript, Vite and Node.
+A multiplayer game built with React, TypeScript, Vite, Node, and WebSocket.
 
 ## About the Project
 
